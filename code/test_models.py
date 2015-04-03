@@ -26,7 +26,7 @@ def ReadFile(filename):
     return data
 
 
-def main(script, filename='mystery0.dat'):
+def main(script, filename='mystery2.dat'):
     data = ReadFile(filename)
     cdf = thinkstats2.MakeCdfFromList(data)
 
